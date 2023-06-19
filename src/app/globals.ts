@@ -20,12 +20,5 @@ export const GlobalStyle = createGlobalStyle`
     padding-inline: 2%;
     width: 100%;
   }
-  ::-webkit-scrollbar{
-    width: 5px;
-    background: var(--bg-color);
-  }
-  ::-webkit-scrollbar-thumb{
-    background:var(--destaque);
-    border-radius: 10px;
-  }
+ 
 `
